@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "testmod2:item/custom_item"
+    }
+  }
