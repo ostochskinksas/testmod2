@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "testmod2",
+	"version": "${version}",
+	"name": "Test Mod 2",
+	"description": "Wow, we do be modding doe",
+	"authors": [
+		"ostochskinksas, aka moi :)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/testmod2/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ostochskinksas.testmod2.Testmod2"
+		],
+		"client": [
+			"ostochskinksas.testmod2.Testmod2Client"
+		],
+		"fabric-datagen": [
+			"ostochskinksas.testmod2.Testmod2DataGenerator"
+		]
+	},
+	"mixins": [
+		"testmod2.mixins.json",
+		{
+			"config": "testmod2.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
