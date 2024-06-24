@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "WWW",
+      "WRW",
+      "WWW"
+    ],
+    "key": {
+      "W": {
+        "item": "testmod2:custom_item"
+      },
+      "R": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "item": "testmod2:amogus_item"
+    }
+  }
