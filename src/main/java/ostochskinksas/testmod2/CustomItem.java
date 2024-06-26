@@ -28,5 +28,7 @@ public class CustomItem extends Item {
     @Override
     public void appendTooltip(ItemStack itemStack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable("item.testmod2.custom_item.tooltip"));
+        tooltip.add(Text.translatable("Testing"));
     }
+    
 }
